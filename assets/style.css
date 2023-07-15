@@ -1,0 +1,119 @@
+body {
+  background-color: rgba(127, 255, 212, 0.543);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.todo-list {
+  background-color: #0B2027;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+  min-width: 400px;
+  min-height: 300px;
+  padding: 1rem;
+}
+
+.title {
+  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+  color: #F6F1D1;
+  font-family: "BioRhyme", serif;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0.75);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input,
+.form-button {
+  border-radius: 0.5rem;
+  font-family: "BioRhyme", serif;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.form-input {
+  background-color: #F6F1D1;
+  border-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.form-button {
+  border: 1px;
+  background: #F6F1D1;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-left: 0.25rem;
+  text-transform: uppercase;
+}
+
+.form-button:hover {
+  background: rgba(246, 241, 209, 0.1);
+  border: 1px solid #F6F1D1;
+  color: #F6F1D1;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0.75);
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #F6F1D1;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+.check-button,
+.delete-button {
+  background-color: #F6F1D1;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.427);
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+}
+
+.check-button:hover, .delete-button:hover {
+  background: rgba(246, 241, 209, 0.1);
+  border: 1px solid #F6F1D1;
+  color: #F6F1D1;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0.75);
+}
+
+.task.done {
+  background-color: #75e35955;
+}
+
+.content {
+  margin: 0;
+}
+
+.task.done .content {
+  text-decoration: line-through;
+}

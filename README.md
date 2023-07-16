@@ -1,12 +1,12 @@
 # Manipulando o DOM com JavaScript
 
-<img src="./assets/preview.png" width=550>
+<img src="./assets/imgs/preview.png" width=550>
 
 Clique [AQUI](https://alineviana.github.io/manipulando-dom-alura/) para acessar o projeto
 
 <br>
 
-> ## 📝 Conteúdo do curso: ✨JavaScript na Web: manipule o DOM com JavaScript✨
+> ## 📝 Conteúdo do curso: ✨ JavaScript na Web: manipule o DOM com JavaScript ✨
 <br>
 
 - Aprenda como funciona o DOM
